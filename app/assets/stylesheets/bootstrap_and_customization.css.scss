@@ -1,7 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Pacifico);
+
 $body-bg:	#ecf0f1;
-$navbar-inverse-bg: #c0392b;
-$navbar-inverse-link-color: white;
-$jumbotron-bg: #bdc3c7;
+$navbar-default-bg: white;
+$font-family-sans-serif:	"Lato", "Helvetica neue", Helvetica, Arial, sans-serif;
+$navbar-default-link-color: #7f8c8d;
+$jumbotron-bg: white;
 $brand-primary: #c0392b;
+$navbar-default-brand-color: #c0392b;
+$brand-secondary: #ecf0f1;
 
 @import 'bootstrap';
+
+.center{
+	text-align: center;
+}
+
+.navbar-brand{
+	font-family: "Pacifico";
+}
